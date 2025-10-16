@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import experiencesRouter from "./routes/experiences.js";
 
 const app = express();
 
@@ -13,5 +14,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({ message: "API uppe" });
 });
+
+app.use("/api/experiences", experiencesRouter);
 
 export default app;
