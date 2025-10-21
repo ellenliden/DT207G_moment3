@@ -161,13 +161,13 @@ Bas‑URL: `/api/experiences`
 
 ### Backend (moment 3, steg 1)
 
-- **Render**: [Render-URL kommer här]
+- **Render**: https://dt207g-moment3-rf1t.onrender.com
 - **GitHub**: https://github.com/ellenliden/DT207G_moment3.git
-- **MongoDB Atlas**: Används för produktion (connection string sätts som environment variable i Render)
+- **MongoDB Atlas**: Används för produktion (connection string sätts som environment variable i Render, lagt in info från .env-filen)
 
 ### Frontend (moment 3, steg 2)
 
-- **Render**: [URL kommer här]
+- **Render**: https://dt207g-moment3-2.onrender.com
 - **GitHub**: https://github.com/ellenliden/DT207G_moment3_2.git
 
 ## Kontakt
